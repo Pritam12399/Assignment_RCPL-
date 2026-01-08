@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Assignment3</title>
+</head>
+<body  bgcolor="red">
+    <h3><a href="Student Registratio.COM ">Student Registration Form Using Table in HTML</a></h3>
+    <form method="post">
+        <table width="70%" cellspacing="20 ">
+            <tr>
+                <td style=" color:white">
+                    <label >First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="t1" value="" placeholder="enter firstname here"/>
+                </td>
+                <td style=" color:white" >
+                    <label>(Max 50 Characters Allowed)</label>
+                </td>
+            </tr>
+            <tr>
+                <td style=" color:white">
+                    <label >Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="t2" value="" placeholder="enter lastname here"/>
+                </td>
+                <td style=" color:white" >
+                    <label>(Max 50 Characters Allowed)</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    <label>Email id</label>
+                </td>
+                <td>
+                    <input type="email" name="e1" value="" placeholder="enter email"/>
+                </td>
+            </tr>
+            <tr> 
+                <td style="color: white;">
+                    <label>Mobile Number</label>
+                </td>
+                <td>
+                    <input type="number" name="n1" value="" placeholder="mobile number"Max=10/>
+                </td>
+                <td style=" color:white" >
+                    <label>(Max 10 digits Allowed)</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="g1" valie="male"/><label style="color: white;">male</label>
+                    <input type="radio" name="g1" valie="male"/><label style="color: white;">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    <label>Date of Birth</label>
+                </td>
+                <td>
+                    <select>
+                        <option>Day</option>
+                    </select>
+                    <select>
+                        <option>Month</option>
+                    </select>
+                    <select>
+                        <option>Year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;"> Address</td>
+                <td colspan="2">
+                    <textarea rows="7" cols="40"></textarea>
+    
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    City
+                </td>
+                <td><input type="text" name="t3" value=""placeholder="city name" maxlength="50"/>
+                 </td>
+                 <td style="color: white;">
+                    (Max 50 Characters allowed)
+                 </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    Pin Code
+                </td>
+                <td>
+                    <input type="number" name="n2"maxlength="6"/>
+                </td>
+                <td style="color: white;">
+                    (Max 6 Numbers Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    State
+                </td>
+                <td><input type="text" name="t4" value=""placeholder="statename" maxlength="50"/>
+                 </td>
+                 <td style="color: white;">
+                    (Max 50 Characters allowed)
+                 </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    Country
+                </td>
+                <td><input type="text" name="t5" value=""placeholder="countryname" maxlength="50"/>
+                 </td>
+                 <td style="color: white;">
+                    (Max 50 Characters allowed)
+                 </td>
+            </tr>
+            <tr>
+                <td style="color: white;">
+                    <label>Hobbies</label>
+                </td>
+                <td>
+                   <input type="checkbox" name="c2"value=""/><label style="color: white;">Drawing</label>
+                   <input type="checkbox" name="c3"value=""/><label style="color: white;">Singing</label>
+                   <input type="checkbox" name="c4"value=""/><label style="color: white;">Dancing</label>
+                   <input type="checkbox" name="c5"value=""/><label style="color: white;">Sketching</label><br>
+                   <input type="checkbox" name="c1"value=""/><label style="color: white;">Others</label>
+                   <input type="text" name="t6" value="" placeholder="Ex teaching"/>
+
+                </td>
+                <td style="color: white;">(Max 50 characters Allowed)</td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="color: white;">Qualifications</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="q1"value=""/><label style="color: white;">High School(10th)</label><br>
+                    <input type="checkbox" name="q2"value=""/><label style="color: white;">Higher School(12th)</label><br>
+                    <input type="checkbox" name="q3"value=""/><label style="color: white;">Graduation(Bachelor)</label><br>
+                    <input type="checkbox" name="q4"value=""/><label style="color: white;">Post Graduation(Masters)</label><br>
+                    <input type="checkbox" name="q5"value=""/><label style="color: white;">Phd</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label style="color: white;">Coueses Applied For</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="ca1"value=""/><label style="color: white;">BCA(Bachelor of Computer Application)</label><br>
+                    <input type="checkbox" name="ca2"value=""/><label style="color: white;">B.Com(Bachelor of Commerce)</label><br>
+                    <input type="checkbox" name="ca3"value=""/><label style="color: white;">B.Sc(Bachelor of Science)</label><br>
+                    <input type="checkbox" name="ca4"value=""/><label style="color: white;">BA(Bachelor of Arts)</label><br>
+                    <input type="checkbox" name="ca5"value=""/><label style="color: white;">MCA(Master of Computer Application)</label><br>
+                    <input type="checkbox" name="ca6"value=""/><label style="color: white;">M.Com(Master of Commerce)</label><br>
+                    <input type="checkbox" name="ca7"value=""/><label style="color: white;">M.Sc(Master of Science)</label><br>
+                    <input type="checkbox" name="ca8"value=""/><label style="color: white;">MA(Master of Arts)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" >Submit</button>
+                    <button type="reset">Reset</button>
+               </td>
+            </tr>
+            
+        </table>
+        
+    </form>
+    
+</body>
+</html>
