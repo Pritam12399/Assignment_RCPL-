@@ -37,17 +37,19 @@
         <div class="row">
             <div class="col-sm-6 bg-warning" style="height: 500px;">
 
-            <textarea name="text1" style=" width:100%; height:500px; font size:40px;">
+            <textarea name="text1" style=" width:100%; height:500px; font-size:40px;">
             <?php
                if(isset($_POST["btn1"]))
                 {
                     echo $_POST["text1"];
                 }
-             ?></textarea>
+
+             ?>
+            </textarea>
             
             </div>
             <div class="col-sm-6 bg-danger" style="height: 500px;">
-             <h1> 
+             
                 <?php
                   if(isset($_POST["btn1"]))
                     {
@@ -55,7 +57,7 @@
                   }
                  ?>
               
-            </h1>   
+           
                  
 
             </div>
